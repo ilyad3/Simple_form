@@ -26,7 +26,8 @@ JavaScript Скрипт, содержащий готовые функции и �
   </ul>
 <h2>3. Описание полей массива "person_settings":</h2>
   <ul>
-      <h4><b>/*Настройки формы*/</b></h4>
+      <h4><b>/* Настройки формы */</b></h4>
+      
     <li>user_pop_up</li>
     <li>user_pop_up_text</li>
     <li>user_pop_up_close_btn</li>
@@ -42,25 +43,35 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>send_btn</li>
     <li>notice_type</li>
     <li>show_time</li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    
+    <h4><b>/* Настройки общения с сервером */</b></h4>
+    
+    <li>neew_window</li>
+    <li>after_send</li>
+    <li>window_place</li>
+    <li>success_window</li>
+    <li>error_window</li>
+    <li>send_type</li>
+    <li>send_method</li>
+    <li>send_file</li>
+    <li>send_names</li>
+        
+    <h4><b>/* Настройки анимации загрузки */</b></h4>
+    
+    <li>loading_show</li>
+    <li>loadin_type</li>
+    <li>loading_img</li>
+    <li>loading_id</li>
+    <li>loading_class</li>
+    <li>loading_other</li>
+    <li>loading_block</li>
+    <li>loading_time</li>
+    <li>loading_after</li>
+            
+    <h4><b>/* Настройки таймеров */</b></h4>
+    
+    <li>form_timer</li>
+    <li>timer_block</li>
+    <li>timer_type</li>
+    <li>timmer_time</li>
   </ul>
