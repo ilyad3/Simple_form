@@ -43,9 +43,9 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>send_btn</li>
     <li>notice_type</li>
     <li>show_time</li>
-    
+    </ul>
     <h4><b>/* Настройки общения с сервером */</b></h4>
-    
+    <ul>
     <li>neew_window</li>
     <li>after_send</li>
     <li>window_place</li>
@@ -55,9 +55,9 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>send_method</li>
     <li>send_file</li>
     <li>send_names</li>
-        
+     </ul>    
     <h4><b>/* Настройки анимации загрузки */</b></h4>
-    
+    <ul>
     <li>loading_show</li>
     <li>loadin_type</li>
     <li>loading_img</li>
@@ -67,9 +67,9 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>loading_block</li>
     <li>loading_time</li>
     <li>loading_after</li>
-            
+    </ul>        
     <h4><b>/* Настройки таймеров */</b></h4>
-    
+    <ul>
     <li>form_timer</li>
     <li>timer_block</li>
     <li>timer_type</li>
