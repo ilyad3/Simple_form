@@ -26,6 +26,7 @@ JavaScript Скрипт, содержащий готовые функции и �
   </ul>
 <h2>3. Описание полей массива "person_settings":</h2>
   <ul>
+    <h3>Настройки формы</h3>
     <li>user_pop_up</li>
     <li>user_pop_up_text</li>
     <li>user_pop_up_close_btn</li>
@@ -41,7 +42,7 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>send_btn</li>
     <li>notice_type</li>
     <li>show_time</li>
-    <h3>124214</h3>
+    <h3>Настройки общения с сервером</h3>
     <li>neew_window</li>
     <li>after_send</li>
     <li>window_place</li>
@@ -51,7 +52,7 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>send_method</li>
     <li>send_file</li>
     <li>send_names</li>
-    
+    <h3>Настройки анимации загрузки</h3>
     <li>loading_show</li>
     <li>loadin_type</li>
     <li>loading_img</li>
@@ -61,7 +62,7 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>loading_block</li>
     <li>loading_time</li>
     <li>loading_after</li>
-    
+    <h3>Настройки таймера</h3>
     <li>form_timer</li>
     <li>timer_block</li>
     <li>timer_type</li>
