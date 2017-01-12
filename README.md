@@ -41,7 +41,7 @@ JavaScript Скрипт, содержащий готовые функции и �
     <li>send_btn</li>
     <li>notice_type</li>
     <li>show_time</li>
-    
+    <h3>124214</h3>
     <li>neew_window</li>
     <li>after_send</li>
     <li>window_place</li>
