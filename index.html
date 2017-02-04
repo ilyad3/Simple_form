@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset='utf-8'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src='script.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript">
+		window.onload = function () {
+			Simple_Form("#Simple_Form");
+		}
+	</script>
+	<title></title>
+</head>
+<body>
+	<form id='Simple_Form' class="navbar-form navbar-left col-lg-3 text-align" >
+		<div id='warning_alert' class="alert alert-danger" style='display:none;'>
+			<p></p>
+			<a href="#" id='close_btn' onclick='$("#warning_alert").hide();' class="close">Закрыть</a>
+		</div>
+		<div>
+			<label>Демонстрация таймера:</label>
+			<p class="form-control-static" id='test'>email@example.com</p>
+		</div>
+		<div>
+			<label for='date'>Введите дату</label>
+			<input type='text' class="form-control" id='date' mask='date'>
+			<p class="help-block">В этой строке Вы можете ввести дату</p>
+		</div>
+		<div>
+			<label for='date'>Введите число</label>
+			<input type='text' class="form-control" id='number' mask='number'>
+			<p class="help-block">В этой строке Вы можете ввести только числа</p>
+		</div>
+		<div>
+			<label for='date'>Введите Телефон#1</label>
+			<input type='text' class="form-control" id='phone_1' mask='phone' phone-type="dash" placeholder='8 (xxx) xxx - xx - xx' expression='Не корректный номер!'>
+			<p class="help-block">В этой строке Вы можете ввести свой телефон</p>
+		</div>
+		<div>
+			<label for='date'>Введите Телефон#2</label>
+			<input type='text' class="form-control" id='phone_2' mask='phone' phone-type="no_dash" placeholder='8 xxx xxx  xx  xx'>
+			<p class="help-block">В этой строке Вы можете ввести свой телефон</p>
+		</div>
+		<div>
+			<label for='date'>Введите Любой символ#1</label>
+			<input type='text' class="form-control" id='full_perm' mask='' permission='full' expression='Заполни меня!'>
+			<p class="help-block">Строка с проверкой на заполненность</p>
+		</div>
+		<div>
+			<label for='date'>Введите Любой символ#2</label>
+			<input type='text' class="form-control" id='first_step_perm' mask='' permission='first_step'>
+			<p class="help-block">Строка с проверкой на заполненность</p>
+		</div>
+		<div>
+			<label for='date'>Введите Любой символ#3</label>
+			<input type='text' class="form-control" id='second_step_perm' mask='' permission='second_step' expression='Заполни меня!'>
+			<p class="help-block">Строка с проверкой на заполненность</p>
+		</div>
+		<div>
+			<label for='date'>Странная строка</label>
+			<input type='text' class="form-control" id='autocomplite_perm' mask='' permission='autocomplite'>
+			<p class="help-block">Строка с автозаполнением</p>
+		</div>
+		<input type='button' id='send_btn' onclick="Simple_Send('#Simple_Form','user_pop-up');" class="btn btn-success btn-block" value='Отправить!'>
+	</form>
+	<div id="test"></div>
+</body>
+</html>

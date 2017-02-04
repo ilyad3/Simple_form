@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta charset='utf-8'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src='script.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<script type="text/javascript">
+		window.onload = function () {
+			Simple_Form("#example_1");
+		}
+	</script>
+	<title>Example#1</title>
+</head>
+<body>
+	<form id='example_1' class='col-xs-4'>
+		<h3 id='title' style='text-align:center;'></h3>
+		<h4 id='title_2' style='text-align:center;'></h4>
+		<p class="help-block  alert-warning" style='text-align:center;display:none;cursor:pointer;' id='warning_alert'></p>
+		<div>
+			<label for='date'>Введите Ваше Имя</label>
+			<input type='text' class="form-control" id='name' permission='full' expression="Пожалуйста уточните Ваше имя!">
+		</div>
+		<div>
+			<label for='date'>Введите Ваш Телефон</label>
+			<input type='text' class="form-control" id='phone' permission='full' mask='phone' phone-type="no_dash" placeholder='8 xxx xxx  xx  xx' expression="Пожалуйста уточните номер!">
+		</div>
+
+		<input type='button' id='send_btn' class="btn btn-info btn-block" value='Отправить!'>
+	</form>
+</body>
+</html>
