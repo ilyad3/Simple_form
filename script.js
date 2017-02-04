@@ -118,7 +118,9 @@ function Simple_Form(form) {
 	if (person_settings['form_encirclement'] == "Y") {
 		$(person_settings['form_title_box']).html(person_settings['form_title']);
 		$(person_settings['form_title2_box']).html(person_settings['form_title2']);
-		$(person_settings['send_btn']).text(person_settings['btn_text']);
+		if (person_settings['btn_text'] != "") {
+			$(person_settings['send_btn']).text(person_settings['btn_text']);
+		}
 	}
 }
 
